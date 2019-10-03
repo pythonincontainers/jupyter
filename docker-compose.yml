@@ -1,11 +1,5 @@
 version: "3.7"
 
-networks:
-  jupyter:
-    driver: overlay
-    attachable: true
-    name: jupyter
-
 services:
   minimal:
     image: jupyter/minimal-notebook
